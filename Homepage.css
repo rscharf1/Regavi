@@ -1,0 +1,167 @@
+body, html {
+   background-color: #fafafa; 
+}
+
+@media screen and (max-width:900px) {
+    .container {
+        background-color: rebeccapurple;
+    }
+
+}
+
+.container {
+    height: 70px;
+    width: 1000px;
+    top: 0px; 
+    bottom: 0px; 
+    left: 0px;
+    right: 0px;
+    position: fixed; 
+    margin-right: auto; 
+    margin-left: auto;
+    background-color: #fafafa;  
+    min-width: 700px;
+}
+
+.logo_name {
+    position: absolute; 
+    height: 70px;
+    display: inline;  
+    left: 10px;  
+}
+
+#regavi_logo {
+    display: inline;
+    position: relative;
+    height: 45px;
+    width: 45px;
+    top: 12px; 
+}
+
+#name {
+    display: inline;
+    position: relative;
+    color: #ff3c4b; 
+    font-weight: 700; 
+    font-size: 3em;
+    font-family:
+}
+
+.header_links {
+    position: absolute;  
+    height: 70px;
+    width: 400px;
+    display: inline;  
+    left: 300px;  
+}
+
+.links {
+    float: left;
+    width: 131px; 
+    height: 70px; 
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 70px; 
+    color: #ff3c4b; 
+    font-size: 17px; 
+}
+
+a {
+    text-decoration: none; 
+    color: #ff3c4b;
+}
+
+.social_links {
+    position: absolute; 
+    height: 70px;
+    width: 180px;
+    display: inline;  
+    left: 750px;  
+}
+
+#facebook_logo, #instagram_logo {
+    width: 50px; 
+    height: 50px;
+    position: relative;
+    top: 10px; 
+    float: right;
+    margin-right: 15px; 
+}
+/*-----------------------*/
+.container2 {
+    height: 500px;
+    width: 100%;
+    top: 70px; 
+    bottom: 0px; 
+    left: 0px;
+    right: 0px;
+    position: fixed; 
+    margin-right: auto; 
+    margin-left: auto;
+    background-color: #ff3c4b;  
+    min-width: 700px;
+}
+
+.mission {
+    top: 70px; 
+    bottom: 0px; 
+    left: 0px;
+    right: 0px;
+    position: absolute; 
+    margin-right: auto; 
+    margin-left: auto; 
+    height: 70px; 
+    width: 560px;
+}
+
+.mission_p {
+    text-align: center; 
+    vertical-align: middle; 
+    line-height: 30px; 
+    color: #fafafa; 
+    font-size: 45px; 
+    font-weight: 450;
+}
+
+hr {
+    position: relative;
+    bottom: 30px; 
+}
+
+.description {
+    top: 150px; 
+    bottom: 0px; 
+    left: 0px;
+    right: 0px;
+    position: absolute; 
+    margin-right: auto; 
+    margin-left: auto; 
+    height: 70px; 
+    width: 360px;
+}
+
+.description_p {
+    text-align: center; 
+    vertical-align: middle; 
+    line-height: 30px; 
+    color: #fafafa;
+    font-size: 25px; 
+}
+
+.download {
+    top: 300px; 
+    bottom: 0px; 
+    left: 0px;
+    right: 0px;
+    position: absolute; 
+    margin-right: auto; 
+    margin-left: auto; 
+    height: 70px; 
+    width: 420px;
+}
+
+#app_store, #google_play {
+    width: 180px; 
+    height: 60px;
+    margin-left: 20px; 
+}
