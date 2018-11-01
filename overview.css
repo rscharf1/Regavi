@@ -1,5 +1,5 @@
 body, html {
-   background-color: #fafafa; 
+   background-color: #fafafa;
 }
 
 @media screen and (max-width:900px) {
@@ -9,9 +9,22 @@ body, html {
 
 }
 
+.behind_white {
+    height: 70px;
+    width: 100%;
+    top: 0px; 
+    bottom: 0px; 
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    background-color: #fafafa; 
+    z-index: 3; 
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
 .container {
     height: 70px;
-    width: 1000px;
+    width: 970px;
     top: 0px; 
     bottom: 0px; 
     left: 0px;
@@ -66,6 +79,10 @@ body, html {
     font-size: 17px; 
 }
 
+#thispage {
+    color: gray; 
+}
+
 a {
     text-decoration: none; 
     color: #ff3c4b;
@@ -88,3 +105,87 @@ a {
     margin-right: 15px; 
 }
 /*-----------------------*/
+.container2 {
+    height: 1500px;
+    width: 100%;
+    top: 70px; 
+    bottom: 0px; 
+    left: 0px;
+    right: 0px;
+    position: absolute; 
+    margin-right: auto; 
+    margin-left: auto;
+    background-color: #ff3c4b;  
+    min-width: 700px;
+    overflow: scroll; 
+    z-index: -1;
+}
+
+.section {
+    border: 1px solid black; 
+    width: 970px; 
+    height: 300px;
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+#section1, #section3, #section5 {
+    background-color: #fafafa; 
+}
+
+#section2, #section4, #section6 {
+    background-color: #e8e6e6; 
+}
+
+#section1 {
+    text-align: center; 
+}
+
+.section1_header {
+    font-size: 25px; 
+    position: relative;
+    top: 10px; 
+}
+
+.section1_p {
+    margin-right: auto; 
+    margin-left: auto;
+    margin-top: 60px;
+    font-size: 22px;
+    width: 650px;
+    color: rgb(92, 91, 91); 
+}
+
+.row {
+    width: 970px;
+    height: 300px; 
+}
+
+.column {
+    float: left;
+    width: 485px;
+    height: 300px; 
+}
+
+.left_header, .right_header {
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: 25px; 
+    font-weight: 600; 
+}
+
+.left_sub_header, .right_sub_header {
+    position: relative;
+    bottom: 10px; 
+    margin-left: 60px;
+    font-size: 20px;
+    color: rgb(92, 91, 91);
+}
+
+.left_description, .right_description {
+    margin-left: 60px;
+    font-size: 18px; 
+    width: 320px; 
+    color: rgb(59, 59, 59);
+
+}
