@@ -107,7 +107,7 @@ body, html {
 }
 /*-----------------------*/
 .container2 {
-    height: 1500px;
+    height: 2100px;
     width: 100%;
     top: 65px; 
     bottom: 0px; 
@@ -118,7 +118,7 @@ body, html {
     margin-left: auto;
     background-color: #ff3c4b;  
     min-width: 700px;
-    overflow: scroll; 
+    /* overflow: scroll;  */
     z-index: -1;
 }
 
@@ -129,7 +129,7 @@ body, html {
     margin-left: auto;
 }
 
-#section1, #section3, #section5 {
+#section1, #section3, #section5, #section7 {
     background-color: #fafafa; 
 }
 
@@ -142,7 +142,7 @@ body, html {
     border-radius: 300px;
     position: relative;
     left: 40px; 
-    top: 20px;
+    top: 60px;
     width: 150px; 
     height: 150px;
 }
@@ -151,7 +151,7 @@ body, html {
     width: 180px; 
     height: 30px;
     position: relative;
-    bottom: 100px; 
+    bottom: 90px; 
     left: 210px; 
     font-size: 28px;
 }
@@ -172,7 +172,7 @@ body, html {
     position: relative;
     width: 150px; 
     height: 150px;
-    top: 20px;
+    top: 60px;
     left: 300px;
 }
 
@@ -180,7 +180,7 @@ body, html {
     width: 180px; 
     height: 30px;
     position: relative;
-    bottom: 100px;
+    bottom: 90px;
     left: 100px; 
     font-size: 28px;
 }
@@ -190,12 +190,11 @@ body, html {
     height: 30px;
     position: relative;
     bottom: 120px;
-    left: 130px; 
+    left: 115px; 
     color: gray; 
     font-size: 22px;
     text-align: right; 
 }
-
 
 .section_row {
     width: 970px;
@@ -206,6 +205,25 @@ body, html {
     float: left;
     width: 485px;
     height: 300px; 
+}
+
+.right_description {
+    border: 1px solid black;
+    margin-top: 60px; 
+    width: 350px; 
+    height: 230px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.left_description {
+    border: 1px solid black;
+    margin-top: 60px; 
+    margin-left: 90px;
+    width: 350px; 
+    height: 230px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 /*-----------------------*/

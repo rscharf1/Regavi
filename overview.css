@@ -109,7 +109,7 @@ body, html {
 }
 /*-----------------------*/
 .container2 {
-    height: 1500px;
+    height: 2100px;
     width: 100%;
     top: 45px; 
     bottom: 0px; 
@@ -120,8 +120,6 @@ body, html {
     margin-left: auto;
     background-color: #ff3c4b;  
     min-width: 700px;
-    overflow: scroll; 
-    -webkit-overflow-scrolling: touch;
     z-index: -1;
 }
 
