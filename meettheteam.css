@@ -129,11 +129,11 @@ body, html {
     margin-left: auto;
 }
 
-#section1, #section3, #section5, #section7 {
+#section1, #section3, #section5, #section7, #section9 {
     background-color: #fafafa; 
 }
 
-#section2, #section4, #section6 {
+#section2, #section4, #section6, #section8 {
     background-color: #e8e6e6; 
 }
 
@@ -147,8 +147,14 @@ body, html {
     height: 150px;
 }
 
+.left_headshot img, .right_headshot img {
+    height: 100%;
+    width: 100%;
+    border-radius: 300px;
+}
+
 .left_name {
-    width: 180px; 
+    width: 230px; 
     height: 30px;
     position: relative;
     bottom: 90px; 
@@ -157,7 +163,7 @@ body, html {
 }
 
 .left_position {
-    width: 100px; 
+    width: 200px; 
     height: 30px;
     position: relative;
     bottom: 120px; 
@@ -226,6 +232,58 @@ body, html {
     color: rgba(0, 0, 0, 0.6);
 }
 
+#section6, #section7 {
+    text-align: center; 
+}
+
+.dev_interns, .bus_interns {
+    font-size: 25px;
+}
+
+.bus_interns {
+    position: relative;
+    bottom: 25px; 
+}
+
+#section6 .intern1, #section6 .intern2 {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+    border: 1px solid black; 
+}
+
+.intern1 img, .intern2 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 200px;
+}
+
+#section6 p {
+    position: relative;
+    bottom: 30px; 
+    text-align: left;
+}
+
+#section7 .intern1, #section7 .intern2, #section7 .intern3, #section7 .intern4, #section7 .intern5 {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border-radius: 200px;
+    border: 1px solid black; 
+} 
+
+#section7 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 200px;
+}
+
+#section7 p {
+    position: relative;
+    bottom: 60px; 
+    text-align: left;
+}
 /*-----------------------*/
 .footer {
     position: relative; 
