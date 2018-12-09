@@ -80,6 +80,10 @@ body, html {
     font-size: 17px; 
 }
 
+#thispage {
+    color: gray; 
+}
+
 .header_links a, .logo_name a {
     text-decoration: none; 
     color: #ff3c4b;
@@ -103,91 +107,80 @@ body, html {
 }
 /*-----------------------*/
 .container2 {
-    height: 660px;
+    height: 1140px;
     width: 100%;
-    top: 70px; 
+    top: 65px; 
     bottom: 0px; 
     left: 0px;
     right: 0px;
-    position: fixed; 
+    position: absolute; 
     margin-right: auto; 
     margin-left: auto;
     background-color: #ff3c4b;  
     min-width: 700px;
-    overflow: scroll; 
+    z-index: 1;
 }
 
-.mission {
-    top: 70px; 
-    bottom: 0px; 
-    left: 0px;
-    right: 0px;
-    position: absolute; 
+.section {
+    width: 970px; 
+    height: 300px;
     margin-right: auto; 
-    margin-left: auto; 
-    height: 70px; 
-    width: 560px;
+    margin-left: auto;
 }
 
-.mission_p {
-    text-align: center; 
-    vertical-align: middle; 
-    line-height: 30px; 
-    color: #fafafa; 
-    font-size: 45px; 
-    font-weight: 450;
+#section1, #section3 {
+    background-color: #fafafa; 
 }
 
-hr {
+#section2, #section4 {
+    background-color: #e8e6e6; 
+}
+
+#section1 {
+    height: 180px;
+    vertical-align: middle;
+}
+
+#section3 {
+    height: 250px;
+}
+
+#section4 {
+    height: 410px;
+}
+
+.overview_text {
     position: relative;
-    bottom: 30px; 
+    top: 30px;
+    width: 80%;
+    margin-left: auto; 
+    margin-right: auto; 
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.title {
+    position: relative;
+    top: 30px; 
+    left: 50px;
+    font-size: 25px; 
+    font-weight: 600;
 }
 
 .description {
-    top: 150px; 
-    bottom: 0px; 
-    left: 0px;
-    right: 0px;
-    position: absolute; 
-    margin-right: auto; 
-    margin-left: auto; 
-    height: 70px; 
-    width: 360px;
-}
-
-.description_p {
-    text-align: center; 
-    vertical-align: middle; 
-    line-height: 30px; 
-    color: #fafafa;
-    font-size: 25px; 
-}
-
-.download {
-    top: 300px; 
-    bottom: 0px; 
-    left: 0px;
-    right: 0px;
-    position: absolute; 
-    margin-right: auto; 
-    margin-left: auto; 
-    height: 70px; 
-    width: 420px;
-}
-
-#app_store, #google_play {
-    width: 180px; 
-    height: 60px;
-    margin-left: 20px; 
+    position: relative;
+    top: 50px; 
+    left: 50px; 
+    width: 870px;
+    font-size: 20px; 
+    color: rgba(0, 0, 0, 0.8);
 }
 /*-----------------------*/
-.footer {
+.footer2 {
     width: 100%;
     height: 70px;
     background-color: #fafafa;
-    position: relative;
-    top: 660px;  
-    overflow-y: scroll;
+    position: relative;  
 }
 
 .policy_links {
@@ -223,21 +216,5 @@ hr {
 
 #incorporated {
     color: gray; 
-}
-
-.language_select {
-    height: 70px;
-    width: 200px;
-    position: absolute; 
-    left: 1000px;
-    text-align: center; 
-    line-height: 70px; 
-    vertical-align: middle; 
-}
-
-.dropdown_button {
-    border-radius: 3px; 
-    font-size: 15px;  
-    font-weight: 100; 
 }
 

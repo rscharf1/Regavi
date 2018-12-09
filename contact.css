@@ -1,0 +1,104 @@
+body, html {
+   background-color: #fafafa; 
+   overflow: scroll; 
+}
+
+@media screen and (max-width:900px) {
+    .container {
+        background-color: rebeccapurple;
+    }
+
+}
+
+.behind_white {
+    height: 70px;
+    width: 100%;
+    top: 0px; 
+    bottom: 0px; 
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    background-color: #fafafa; 
+    z-index: 3; 
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    height: 70px;
+    width: 970px;
+    top: 0px; 
+    bottom: 0px; 
+    left: 0px;
+    right: 0px;
+    position: fixed; 
+    margin-right: auto; 
+    margin-left: auto;
+    background-color: #fafafa;  
+    min-width: 700px;
+}
+
+.logo_name {
+    position: absolute; 
+    height: 70px;
+    display: inline;  
+    left: 10px;  
+}
+
+#regavi_logo {
+    display: inline;
+    position: relative;
+    height: 45px;
+    width: 45px;
+    top: 12px; 
+}
+
+#name {
+    display: inline;
+    position: relative;
+    color: #ff3c4b; 
+    font-weight: 700; 
+    font-size: 3em;
+    font-family:
+}
+
+.header_links {
+    position: absolute;  
+    height: 70px;
+    width: 550px;
+    display: inline;  
+    left: 210px;  
+}
+
+.links {
+    float: left;
+    width: 25%; 
+    height: 70px; 
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 70px; 
+    color: #ff3c4b; 
+    font-size: 17px; 
+}
+
+.header_links a, .logo_name a {
+    text-decoration: none; 
+    color: #ff3c4b;
+}
+
+.social_links {
+    position: absolute; 
+    height: 70px;
+    width: 180px;
+    display: inline;  
+    left: 750px;  
+}
+
+#facebook_logo, #instagram_logo {
+    width: 50px; 
+    height: 50px;
+    position: relative;
+    top: 10px; 
+    float: right;
+    margin-right: 15px; 
+}
+/*-----------------------*/

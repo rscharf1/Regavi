@@ -66,14 +66,14 @@ body, html {
 .header_links {
     position: absolute;  
     height: 70px;
-    width: 400px;
+    width: 550px;
     display: inline;  
-    left: 300px;  
+    left: 210px;  
 }
 
 .links {
     float: left;
-    width: 131px; 
+    width: 25%; 
     height: 70px; 
     text-align: center;
     vertical-align: middle; 
