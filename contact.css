@@ -80,6 +80,10 @@ body, html {
     font-size: 17px; 
 }
 
+#thispage {
+    color: gray; 
+}
+
 .header_links a, .logo_name a {
     text-decoration: none; 
     color: #ff3c4b;
@@ -102,3 +106,161 @@ body, html {
     margin-right: 15px; 
 }
 /*-----------------------*/
+.container2 {
+    height: 660px;
+    width: 100%;
+    top: 70px; 
+    bottom: 0px; 
+    left: 0px;
+    right: 0px;
+    position: fixed; 
+    margin-right: auto; 
+    margin-left: auto;
+    background-color: #ff3c4b;  
+    min-width: 700px;
+    overflow: scroll; 
+}
+
+.mission {
+    top: 70px; 
+    bottom: 0px; 
+    left: 0px;
+    right: 0px;
+    position: absolute; 
+    margin-right: auto; 
+    margin-left: auto; 
+    height: 70px; 
+    line-height: 70px;
+    vertical-align: middle; 
+}
+
+.mission_p {
+    text-align: center; 
+    vertical-align: middle; 
+    line-height: 30px; 
+    color: #fafafa; 
+    font-size: 32px; 
+    font-weight: 350;
+}
+
+.description {
+    top: 120px; 
+    bottom: 0px; 
+    left: 0px;
+    right: 0px;
+    position: absolute; 
+    margin-right: auto; 
+    margin-left: auto; 
+    height: 70px; 
+    width: 100%;
+    font-weight: 100 !important;
+}
+
+.description_p {
+    text-align: center; 
+    vertical-align: middle; 
+    line-height: 30px; 
+    color: #fafafa;
+    font-size: 25px; 
+    font-weight: 100 !important;
+}
+
+.download {
+    top: 500px; 
+    bottom: 0px; 
+    left: 0px;
+    right: 0px;
+    position: absolute; 
+    margin-right: auto; 
+    margin-left: auto; 
+    height: 70px; 
+    width: 420px;
+}
+
+#app_store, #google_play {
+    width: 180px; 
+    height: 60px;
+    margin-left: 20px; 
+}
+/*-----------------------*/
+.emailForm {
+    margin-top: 220px; 
+    display: block; 
+    text-align: center; 
+    margin-right: auto; 
+    margin-left: auto;
+    width: 300px; 
+}
+
+form {
+    text-align: left; 
+}
+
+input {
+    width: 100px;
+}
+
+textarea {
+    width: 200px;
+    height: 50px;
+}
+
+#submit {
+    width: 120px; 
+    height: 40px;
+    font-size: 15px; 
+    color: blue; 
+    background-color: #C6C6C6;
+}
+
+#submit:hover {
+    cursor: pointer; 
+    background-color: #A2A2A2; 
+}
+
+/*-----------------------*/
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: #fafafa;
+    position: relative;
+    top: 660px;  
+    overflow-y: scroll;
+}
+
+.policy_links {
+    position: absolute; 
+    left: 180px;
+    width: 650px; 
+    height: 70px;
+}
+
+.policy_row {
+    width: 100%;
+    height: 70px; 
+}
+
+.policy_column {
+    text-align: center; 
+    line-height: 70px;
+    vertical-align: middle ;
+    float: left;
+    width: 25%;
+    height: 70px; 
+    font-size: 14px;
+}
+
+.policy_column a  {
+    color: black;
+    text-decoration: none; 
+}
+
+.policy_column a:hover {
+    color: gray;
+}
+
+#incorporated {
+    color: gray; 
+}
+
+

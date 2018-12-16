@@ -137,7 +137,6 @@ body, html {
 }
 
 .left_headshot { 
-    border: 1px solid black; 
     border-radius: 300px;
     position: relative;
     left: 40px; 
@@ -172,7 +171,6 @@ body, html {
 }
 
 .right_headshot {
-    border: 1px solid black; 
     border-radius: 300px;
     position: relative;
     width: 150px; 
@@ -247,7 +245,6 @@ body, html {
     height: 150px;
     width: 150px;
     border-radius: 200px;
-    border: 1px solid black; 
 }
 
 .intern1 img, .intern2 img {
@@ -267,7 +264,6 @@ body, html {
     height: 80px;
     width: 80px;
     border-radius: 200px;
-    border: 1px solid black; 
 } 
 
 #section7 img {
